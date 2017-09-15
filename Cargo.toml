@@ -1,0 +1,7 @@
+[package]
+name = "mvvm-rs"
+version = "0.1.0"
+authors = ["Huy Tran <kingbazoka@gmail.com>"]
+
+[dependencies]
+rustbox = "*"

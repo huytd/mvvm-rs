@@ -1,0 +1,8 @@
+MVVM Pattern in Rust
+====================
+
+The Model and ViewModel are in models.rs file.
+
+The UI renderer is in view.rs file. It use RustBox as a core, but it can be replaced with anything.
+
+Both UI renderer and Model are completely unaware about each other. The mission of ViewModel is to determine which data and how will it being rendered on the screen.
